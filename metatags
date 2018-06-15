@@ -3,12 +3,6 @@
 $url_export = explode("/",$currUrl);
 if($url_export[4] != ''){
 	 $page_alais = $url_export[3].'/'.$url_export[4];  
-}
-else{
-	 $page_alais = $url_export[3];  
-}  
-if($page_alais != ''){
-		switch ($page_alais){
-			
-				
-		
+
+i edited some lines. plz consider it.
+
