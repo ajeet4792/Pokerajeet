@@ -1,0 +1,1158 @@
+<?php  $currUrl = curPageURLMetaTags();
+//export url
+$url_export = explode("/",$currUrl);
+if($url_export[4] != ''){
+	 $page_alais = $url_export[3].'/'.$url_export[4];  
+}
+else{
+	 $page_alais = $url_export[3];  
+}  
+if($page_alais != ''){
+		switch ($page_alais){
+			
+		case "tips":
+				$ogUrl			= "https://www.pokerbaazi.com/Merchandise";
+				$canonical		= "https://www.pokerbaazi.com/Merchandise";
+				$title			= "The Indian Poker Series at Poker Baazi";
+				$metaDesc		= "The Indian Poker Series is the oldest tournament series. The primary objective is to promote poker in India. PokerBaazi is running Sattalites for TIPS.";
+				$metaKey		= "india poker series,poker series india,the india poker series";
+				$metaRobots		= "INDEX, FOLLOW";
+				break;
+			
+		case "vegas-series":
+				$ogUrl			= "https://www.pokerbaazi.com/Merchandise";
+				$canonical		= "https://www.pokerbaazi.com/Merchandise";
+				$title			= "Vegas Daily Poker Tournaments Series- Pokerbaazi.com";
+				$metaDesc		= "Vegas Tournament Series - Find the best package of Poker Vegas Tournament Series at Pokerbaazi.com.It happens in two phases. The first phase comes under four flights, and each flight of the tournament is of 15 lac.";
+				$metaKey		= "vegas daily poker tournaments,vegas poker tournament schedule ,vegas daily poker series,vegas tournament series,vegas package";
+				$metaRobots		= "INDEX, FOLLOW";
+				break;
+				
+			
+		case "time-bomb":
+				$ogUrl			= "https://www.pokerbaazi.com/Merchandise";
+				$canonical		= "https://www.pokerbaazi.com/Merchandise";
+				$title			= "Best Poker Time Tournaments in India - Pokerbaazi.com";
+				$metaDesc		= "PokerBaazi offers online Poker Time Bomb Tournament in India that starts at 2 PM every day with four different variants.";
+				$metaKey		= "timebomb poker,time bomb tournament, time bomb tournaments in India,best poker time bomb tournaments,poker timebomb";
+				$metaRobots		= "INDEX, FOLLOW";
+				break;
+			
+		case "Accessories":
+				$ogUrl			= "https://www.pokerbaazi.com/Merchandise";
+				$canonical		= "https://www.pokerbaazi.com/Merchandise";
+				$title			= "Poker Accessories, Dealer Button, Playing Cards, Poker chips and many more exciting products on PokerBaazi";
+				$metaDesc		= "Get best poker accessories and products related to Poker on Pokerbaazi.com.";
+				$metaKey		= "poker accessories, poker dealer button, modiano play cards,copag play cards";
+				$metaRobots		= "INDEX, FOLLOW";
+				break;
+			
+			
+		case "vip-plo-leaderboard":
+				$ogUrl			= "https://www.pokerbaazi.com/texas-holdem-poker";
+				$canonical		= "https://www.pokerbaazi.com/texas-holdem-poker";
+				$title			= "Online Poker Tournament Leaderboards on pokerbaazi.com";
+				$metaDesc		= "Poker Tournament Leaderboards: PokerBaazi Tournament Online Leaderboards are a way to show that you are among the best poker players in the business and you can play as many tournaments and keep scoring points on the table.";
+				$metaRobots		= "INDEX, FOLLOW";	
+				$metaKey		= "Poker Tournament Leaderboards,Online Poker Leaderboards,Poker Leaderboards, PokerBaazi Leaderboard, Vip Leaderboard";
+				break;	
+			
+		case "texas-holdem-poker":
+				$ogUrl			= "https://www.pokerbaazi.com/texas-holdem-poker";
+				$canonical		= "https://www.pokerbaazi.com/texas-holdem-poker";
+				$title			= "Play Texas Holdem Poker Online | Real Cash Game | PokerBaazi";
+				$metaDesc		= "Play a most popular online texas hold'em poker game with PokerBaazi. Play and win real cash for every one hour and earn cash as much as possible. Be a part of PokerBaazi by playing freeroll tournament and also be a game changer.";
+				$metaRobots		= "INDEX, FOLLOW";	
+				$metaKey		= "texas holdem, texas holdem poker, play texas holdem poker";
+				break;	
+		
+        case "holdem-drive":
+				$ogUrl			= "https://www.pokerbaazi.com/promotions/holdem-drive";
+				$canonical		= "https://www.pokerbaazi.com/promotions/holdem-drive";
+				$title			= "Playing on the Texas Hold’em tables in the PokerBaazi Spring Carnival.";
+				$metaDesc		= "Playing on the Texas Hold’em tables will have added value in the PokerBaazi Spring Carnival. Play the maximum number of hands in from 10th February to 28th February and stand a chance to win from a pool of 10 LAC!";
+				$metaRobots		= "INDEX, FOLLOW";	
+				break;
+		
+        case "ppl-fantasy-league":
+				$ogUrl			= "https://www.pokerbaazi.com/ppl-fantasy-league";
+				$canonical		= "https://www.pokerbaazi.com/ppl-fantasy-league";
+				$title			= "Create Your Dream PPL Fantasy League Team | PokeerBaazi";
+				$metaDesc		= "PokerBaazi.com brings you Fantasy League for the biggest online Poker league in India, PokerBaazi Premier League Spring '18 Edition - 4.1+ Crore GTD.";
+				$metaRobots		= "INDEX, FOLLOW";	
+				break;
+				
+        case "ppl":
+				$ogUrl			= "https://www.pokerbaazi.com/ppl";
+				$canonical		= "https://www.pokerbaazi.com/ppl";
+				$title			= "India`s most prestigious poker league-PokerBaazi Premier League(PPL)";
+				$metaDesc		= "the power of Texas Hold’em and Pot Limit Omaha to conquer the prestigious PokerBaazi Premier League Summer’18 Edition. Launching on PokerBaazi.com on 18th June. Spinning more than 4 Crore in prize pool over a period of 7 days, the tournament series could also be your key to riding home a brand new Harley Davidson!";
+				$metaKey		= "PokerBaazi Premier League 2018, PPL, PokeerBaazi, ppl, ppl league ppl 2018, Poker, Online poker league, Online poker, poker league, poker tournament.";
+				$metaRobots		= "INDEX, FOLLOW";	
+				break;
+
+		case "testimonials":
+				$ogUrl			= "https://www.pokerbaazi.com/testimonials";
+				$canonical		= "https://www.pokerbaazi.com/testimonials";
+				$title			= "Read Poker Player Testimonials About PokerBaazi";
+				$metaDesc		= "Read our real poker players, personal experiences and know why they love playing cash poker games here at pokerbaazi.com. Visit NOW!";
+				$metaRobots		= "INDEX, FOLLOW";	
+				break;
+				
+        case "freeroll-schedule":
+				$ogUrl			= "https://www.pokerbaazi.com/freeroll-schedule";
+				$canonical		= "https://www.pokerbaazi.com/freeroll-schedule";
+				$title			= "Latest Freeroll Poker Tournaments | PokerBaazi";
+				$metaDesc		= "Watch Out this Space for Our Latest Freeroll Poker Tournaments only at PokeerBaazi.com. Visit and Check out the latest freeroll schedule";
+				$metaRobots		= "INDEX, FOLLOW";	
+				break;	
+				
+		case "pplstore":
+				$ogUrl			= "https://www.pokerbaazi.com/pplstore";
+				$title			= "Currently No Item is Available!!!";
+				$metaKey		= "Currently No Item is Available!!!";
+				$metaRobots		= "NOINDEX, NOFOLLOW, NOARCHIVE";
+				break;		
+				
+        case "Merchandise":
+				$ogUrl			= "https://www.pokerbaazi.com/Merchandise";
+				$canonical		= "https://www.pokerbaazi.com/Merchandise";
+				$title			= "PokerBaazi VIP Store | Accessories Store";
+				$metaDesc		= "PokerBaazi rewards you with VIP Store Accessories, the more you play, so sign up today and start earning!";
+				$metaKey		= "PokerBaazi Accessories Store";
+				$metaRobots		= "INDEX, FOLLOW";
+				break;
+			
+		case "sitemap":
+				$ogUrl			= "https://www.pokerbaazi.com/sitemap.html";
+				$canonical		= "https://www.pokerbaazi.com/sitemap.html";
+				$title			= "Pokerbaazi Html Sitemap";
+				$metaDesc		= "Pokerbaazi.com- html Sitemap";
+				$metaKey		= "Pokerbaazi Html Sitemap,Html Sitemap Pokerbaazi";
+				$metaRobots		= "INDEX, FOLLOW";	
+				break;		
+				
+		case "offers":
+				$ogUrl			= "https://www.pokerbaazi.com/offers";
+				$canonical		= "https://www.pokerbaazi.com/offers";
+				$title			= "Exciting poker offers and coupons for you only on PokerBaazi.com";
+				$metaDesc		= "Get Free IPL Match ticket offers for poker tournament only on PokerBaazi";
+				$metaKey		= "IPL Match, Cricket IPL, IPL Offers, Poker Offers";
+				$metaRobots		= "INDEX, FOLLOW";	
+				break;	
+		
+		case "match-ipl":
+				$ogUrl			= "https://www.pokerbaazi.com/match-ipl";
+				$canonical		= "https://www.pokerbaazi.com/match-ipl";
+				$title			= "Online Qualifier For Match IPL’s Goa King’s Team";
+				$metaDesc		= "Eight teams, having 10 members each, will compete in the Match IPL. There are massive prizes in the league as well only at PokerBaazi.com";
+				$metaKey		= "IPL Match, Cricket IPL";
+				$metaRobots		= "INDEX, FOLLOW";	
+				break;	
+        
+		case "notice":
+				$ogUrl			= "https://www.pokerbaazi.com/notice";
+				$canonical		= "https://www.pokerbaazi.com/notice";
+				$title			= "Important Notice for Telangana Players";
+				$metaDesc		= "Any new player belonging to the state of Telangana will not be allowed to register on PokerBaazi.com.";
+				$metaRobots		= "INDEX, FOLLOW";	
+				break;
+            
+	
+		case "poker-hands":
+				$ogUrl			= "https://www.pokerbaazi.com/poker-hands";
+				$canonical		= "https://www.pokerbaazi.com/poker-hands";
+				$title			= "What Is The Winning Order Of Poker Hands?";
+				$metaKey		= "poker, poker hands, poker sequences";
+				$metaDesc		= "The poker ranking helps an individual to analyze its hand superiority, so before you risk your stakes make sure to go through the poker sequences.";
+				$ogTitle		= "What Is The Winning Order Of Poker Hands?";
+				$ogDescription 	= "The poker ranking helps an individual to analyze its hand superiority, so before you risk your stakes make sure to go through the poker sequences.";
+				$metaRobots		= "INDEX, FOLLOW";	
+				break;
+				
+		case "poker-tournaments":
+				$ogUrl			= "https://www.pokerbaazi.com/poker-tournaments";
+				$canonical		= "https://www.pokerbaazi.com/poker-tournaments";
+				$title			= "What is a Freeroll Poker Tournament?";
+				$metaKey		= "poker tournament, free poker tournament";
+				$metaDesc		= "Freeroll poker tournaments are those online tournaments where players can play the game for free. You stand an opportunity to win real prize money.";
+				$ogTitle		= "What is a Freeroll Poker Tournament?";
+				$ogDescription 	= "Freeroll poker tournaments are those online tournaments where players can play the game for free. You stand an opportunity to win real prize money.";
+				$metaRobots		= "INDEX, FOLLOW";	
+				break;
+				
+		case "online-cash-games":
+				$ogUrl			= "https://www.pokerbaazi.com/online-cash-games";
+				$canonical		= "https://www.pokerbaazi.com/online-cash-games";
+				$title			= "Tips for Winning at Online Poker Game in India";
+				$metaKey		= "play poker, online poker, cash poker, poker, free poker";
+				$metaDesc		= "You may find so many strategies on different forums to play poker online in India, but the problem is that everyone plays poker differently.";
+				$ogTitle		= "Tips for Winning at Online Poker Game in India";
+				$ogDescription 	= "You may find so many strategies on different forums to play poker online in India, but the problem is that everyone plays poker differently.";
+				$ogimage        = "https://www.pokerbaazi.com/images/promotiondetails1.png" ;
+				$metaRobots		= "INDEX, FOLLOW";	
+				break;
+				
+		case "poker-games":
+				$ogUrl			= "https://www.pokerbaazi.com/poker-games";
+				$canonical		= "https://www.pokerbaazi.com/poker-games";
+				$title			= "How to be a Better Poker Player?";
+				$metaKey		= "poker games, poker player, online poker";
+				$metaDesc		= "To be a winner while playing poker online in India, it is important for you to have consistency, good online poker games selection skills. Read more.";
+				$ogTitle		= "How to be a Better Poker Player?";
+				$ogDescription 	= "To be a winner while playing poker online in India, it is important for you to have consistency, good online poker games selection skills. Read more....";
+				$ogimage        = "https://www.pokerbaazi.com/images/promotiondetails1.png" ;
+				$metaRobots		= "INDEX, FOLLOW";	
+				break;
+				
+		case "play-rummy-online":
+				$ogUrl			= "https://www.pokerbaazi.com/play-rummy-online";
+				$title			= "Play Rummy Online for Free and Cash-PokerBaazi";
+				$metaKey		= "play rummy, online rummy, win cash, cash rummy, rummy, free rummy";
+				$metaDesc		= "Play 13 card Indian Rummy Online and win cash. Get Signup Bonus, free tournaments everyday. Register now at PokerBaazi";
+				$ogTitle		= "Play Rummy Online for Free and Cash | Get Rs.2500 Signup Bonus";
+				$ogDescription 	= "Play 13 card Indian Rummy Online and win cash. Get Signup Bonus, free tournaments everyday. Register now at PokerBaazi";
+				$canonical		= "https://www.pokerbaazi.com/play-rummy-online";
+				$metaRobots		= "INDEX, FOLLOW";	
+				break;
+		
+		case "pokerbaazi-social-welfare":
+				$ogUrl			= "https://www.pokerbaazi.com/pokerbaazi-social-welfare";
+				$title			= "PokerBaazi Social Welfare | CLEAN YAMUNA CAMPAIGN";
+				$metaDesc		= "PokerBaazi has joined hands with Conserve India in executing a Clean Yamuna Of Plastic Waste Campaign on April 21st Earth Day celebrations";
+				$canonical		= "https://www.pokerbaazi.com/pokerbaazi-social-welfare";
+				$metaRobots		= "INDEX, FOLLOW";	
+				break;
+				
+		case "promotions/poker-insurance":
+				$ogUrl			= "https://www.pokerbaazi.com/promotions/poker-insurance";
+				$title			= "Get Assured Poker Insurance Bonus | PokerBaazi";
+				$metaDesc		= "PokerBaazi is hosting Poker Insurance from April 2nd to 29th, 2018.You already have our assurance, now we bring to you insurance. Surprised! Don’t be. ";
+				$canonical		= "https://www.pokerbaazi.com/promotions/poker-insurance";
+				$metaRobots		= "INDEX, FOLLOW";	
+				break;
+		
+		case "vijender-singh":
+				$ogUrl			= "https://www.pokerbaazi.com/vijender-singh";
+				$title			= "Vijender Singh Brand Ambassador of PokeerBaazi";
+				$metaDesc		= "Pokerbaazi.com welcomes its new brand ambassador, Boxing champion Mr. Vijender Singh. ";
+				$canonical		= "https://www.pokerbaazi.com/vijender-singh";
+				$metaRobots		= "INDEX, FOLLOW";	
+				break;
+		
+				
+		case "tournament-schedule":
+				$ogUrl			= "https://www.pokerbaazi.com/tournament-schedule";
+				$title			= "Join Online Poker Tournaments and Freeroll Poker | PokerBaazi";
+				$metaDesc		= "PokerBaazi offer online freeroll poker tournaments every day. Know poker tournament schedules for upcoming events and updates for major events";
+				$ogTitle		= "Join Online Poker Tournaments and Freeroll Poker | PokerBaazi";
+				$ogDescription 	= "PokerBaazi offer online freeroll poker tournaments every day. Know poker tournament schedules for upcoming events and updates for major events";
+				$metaKey		= "poker tournament, online poker tournaments, poker tournament schedule";
+				$canonical		= "https://www.pokerbaazi.com/tournament-schedule";
+				$metaRobots		= "INDEX, FOLLOW";	
+				break;
+											
+		case "viewOppNotes":
+				$ogUrl			= "https://www.pokerbaazi.com/viewOppNotes";
+				$title			= "Coming Soon";
+				$metaKey		= "Coming Soon";
+				$metaRobots		= "NOINDEX, NOFOLLOW, NOARCHIVE";
+				break;
+				
+		case "tds":
+				$ogUrl			= "https://www.pokerbaazi.com/tds";
+				$canonical		= "https://www.pokerbaazi.com/tds";
+				$title			= "PokerBaazi | Tds";
+				$metaDesc		= "What is the Tax Deducted at Source (TDS) Rules on PokerBaazi Game in India ";
+                $metaRobots		= "INDEX, FOLLOW";	
+				break;
+						
+			case "webinar":
+				$ogUrl			= "https://www.pokerbaazi.com/webinar";
+				$title			= "Webinars are Conducted by PokerBaazi Team PRO Members";
+				$metaDesc		= "In its endeavor to grow the Indian Poker community, PokerBaazi.com brings out an exclusive opportunity to learn more about Poker.";
+				$ogTitle		= "Webinars are Conducted by PokerBaazi Team PRO Members";
+				$ogDescription 	= "In its endeavor to grow the Indian Poker community, PokerBaazi.com brings out an exclusive opportunity to learn more about Poker.";
+				$canonical		= "https://www.pokerbaazi.com/webinar";
+				$metaRobots		= "INDEX, FOLLOW";	
+				break;	
+								
+
+			case "challenge":
+				$ogUrl			= "https://www.pokerbaazi.com/challenge";
+				$title			= "Highest Stacks Of The Month | PokerBaazi Challenge";
+				$metaDesc		= "Check out how you can take part in PokerBaazi Challenge, the latest poker tournament series to hit online.";
+				$ogTitle		= "Highest Stacks Of The Month | PokerBaazi Challenge";
+				$ogDescription 	= "Check out how you can take part in PokerBaazi Challenge, the latest poker tournament series to hit online.";
+				$canonical		= "https://www.pokerbaazi.com/challenge";
+				$metaRobots		= "INDEX, FOLLOW";	
+				break;
+
+			case "bmmcertification":
+				$ogUrl			= "https://www.pokerbaazi.com/bmmcertification";
+				$title			= "BMM Certification for Online Poker in India | PokerBaazi.com";
+				$metaKey		= "BMM Certification, Trusted site, legality";
+				$metaDesc		= "PokerBaazi.com provides you a unique and safe platform to play online poker game in India. Find out our BMM Gaming Certification.";
+				$ogTitle		= "BMM Certification for Online Poker in India | PokerBaazi.com";
+				$ogDescription 	= "PokerBaazi.com provides you a unique and safe platform to play online poker game in India. Find out our BMM Gaming Certification.";
+				$canonical		= "https://www.pokerbaazi.com/bmmcertification";
+				$metaRobots		= "INDEX, FOLLOW";	
+				break;
+			
+			case "wsopc":
+				$ogUrl			= "https://www.pokerbaazi.com/wsopc";
+				$title			= "PokerBaazi | World Series of Poker Circuit 2016";
+				$metaDesc		= "PokerBaazi has tied up with the Indian Ambassador of Europe's largest poker room, King's Casino, for the World Series of Poker Circuit Events 2016 satellites.";
+				$ogTitle		= "PokerBaazi | World Series of Poker Circuit 2016";
+				$ogDescription 	= "PokerBaazi has tied up with the Indian Ambassador of Europe's largest poker room, King's Casino, for the World Series of Poker Circuit Events 2016 satellites.";
+				$canonical		= "https://www.pokerbaazi.com/wsopc";
+				$metaRobots		= "INDEX, FOLLOW";	
+				break;
+			
+			case "how-to-play":
+				$ogUrl			= "https://www.pokerbaazi.com/how-to-play";
+				$canonical		= "https://www.pokerbaazi.com/how-to-play";
+				$ogTitle		= "How do you play poker Texas Hold'em & Omaha Poker (PLO)";
+				$ogDescription 	= "How do you play poker of Texas Hold'em and Omaha Poker for online poker games in India. To win real money online cash prizes daily at PokerBaazi.com";
+				$title			= "How do you play poker Texas Holdem & Omaha Poker (PLO)";
+				$metaDesc		= "How do you play poker of Texas Hold'em and Omaha Poker for online poker games in India. To win real money online cash prizes daily at PokerBaazi.com";
+				$metaKey		= "play poker, how to play poker, poker games, online poker";
+				$metaRobots		= "INDEX, FOLLOW";	
+				break;
+			
+			case "at-pokerbaazi":
+				$ogUrl			= "https://www.pokerbaazi.com/at-pokerbaazi";
+				$canonical		= "https://www.pokerbaazi.com/at-pokerbaazi";
+				$ogTitle		= "Play poker online for Indian players to win real money online";
+				$ogDescription 	= "PokerBaazi is legal online poker trusted website in India. You will find freeroll poker tournaments and poker games than any other poker sites online in India.";
+				$title			= "Play poker online for Indian players to win real money online";
+				$metaKey		= "play online poker india, poker website in India, poker websites";
+				$metaDesc		= "PokerBaazi is legal online poker trusted website in India. You will find freeroll poker tournaments and poker games than any other poker sites online in India.";
+				$metaRobots		= "INDEX, FOLLOW";	
+				break;	
+				
+			case "starting-hands":
+				$ogUrl			= "https://www.pokerbaazi.com/starting-hands";
+				$ogTitle		= "Best Starting hands in Texas Hold'em poker | PokerBaazi";
+				$ogDescription 	= "Let's start by talking about the best starting poker hands in India, which are often referred to as 'premium hands'";
+				$title			= "Best Starting hands in Texas Hold'em poker | PokerBaazi";
+				$metaDesc		= "Let's start by talking about the best starting poker hands in India, which are often referred to as 'premium hands'";
+				$canonical		= "https://www.pokerbaazi.com/poker-tips";
+				$metaKey		= "poker tells, poker tips, poker strategy";
+				$metaRobots		= "INDEX, FOLLOW";	
+				break;	
+				
+			case "position":
+				$ogUrl			= "https://www.pokerbaazi.com/position";
+				$ogTitle		= "Secret Way to Know Your Position at the Poker Table | PokerBaazi";
+				$ogDescription 	= "In Poker, Number of ways to use position to your benefits and to learn poker on strategies for using position both pre-flop and post-flop.";
+				$title			= "Secret Way to Know Your Position at the Poker Table | PokerBaazi";
+				$metaDesc		= "In Poker, Number of ways to use position to your benefits and to learn poker on strategies for using position both pre-flop and post-flop.";
+				$metaKey		= "poker tells, poker tips, poker strategy";
+				$canonical		= "https://www.pokerbaazi.com/poker-tips";	
+				$metaRobots		= "INDEX, FOLLOW";					
+				break;
+				
+			case "bankroll-management":
+				$ogUrl			= "https://www.pokerbaazi.com/bankroll-management";
+				$ogTitle		= "Learn to Manage Online Poker Games - Bankroll Management";
+				$ogDescription 	= "You are playing out of your bankroll if you play at higher limits where the chances of losing all your money are too high. Learn more!";
+				$title			= "Learn to Manage Online Poker Games - Bankroll Management";
+				$metaDesc		= "You are playing out of your bankroll if you play at higher limits where the chances of losing all your money are too high. Learn more!";
+				$canonical		= "https://www.pokerbaazi.com/poker-tips";
+				$metaKey		= "poker tells, poker tips, poker strategy";
+				$metaRobots		= "INDEX, FOLLOW";				
+				break;
+				
+			case "poker-tells":
+				$ogUrl			= "https://www.pokerbaazi.com/poker-tells";
+				$ogTitle		= "Poker Tips- Online Poker Tells | PokerBaazi";
+				$ogDescription 	= "Observe how to know your opponents poker tells. Find out the best online poker tips and make best use of your online poker games.";
+				$title			= "Poker Tips- Online Poker Tells | PokerBaazi";
+				$metaDesc		= "Observe how to know your opponents poker tells. Find out the best online poker tips and make best use of your online poker games";
+				$canonical		= "https://www.pokerbaazi.com/poker-tips";	
+				$metaKey		= "poker tells, poker tips, poker strategy";
+				$metaRobots		= "INDEX, FOLLOW";
+				break;
+			
+			case "faq-pokerroom":
+				$ogUrl			= "https://www.pokerbaazi.com/faq-pokerroom";
+				$ogTitle		= "Frequently Asked Questions- PokerBaazi Poker Room FAQ";
+				$ogDescription 	= "Find out all the information about poker online game on PokerBaazi instant play with poker room of helpful FAQs.";
+				$shortlink		= "https://www.pokerbaazi.com/faq-pokerroom";
+				$shorticon		= "https://www.pokerbaazi.com/favicon.ico";
+				$canonical		= "https://www.pokerbaazi.com/faq-pokerroom";
+				$title			= "Frequently Asked Questions- PokerBaazi Poker Room FAQ";
+				$metaKey		= "poker faq, poker support, pokerroom faq";
+				$metaDesc		= "Find out all the information about poker online game on PokerBaazi instant play with poker room of helpful FAQs.";
+				$metaRobots		= "INDEX, FOLLOW";
+				break;
+								
+			case "faq-banking":
+				$ogUrl			= "https://www.pokerbaazi.com/faq-banking";
+				$ogTitle		= "Frequently Asked Questions- PokerBaazi Banking FAQ";
+				$ogDescription 	= "Find out the information about poker game on PokerBaazi with poker banking of helpful FAQs.";
+				$shortlink		= "https://www.pokerbaazi.com/faq-banking";
+				$shorticon		= "https://www.pokerbaazi.com/favicon.ico";
+				$canonical		= "https://www.pokerbaazi.com/faq-banking";
+				$title			= "Frequently Asked Questions- PokerBaazi Banking FAQ";
+				$metaKey		= "poker faq, poker support, poker banking";
+				$metaDesc		= "Find out the information about poker game on PokerBaazi with poker banking of helpful FAQs.";
+				$metaRobots		= "INDEX, FOLLOW";
+				break;
+					
+			case "basic-rules-of-texas-holdem":
+				$ogUrl			= "https://www.pokerbaazi.com/basic-rules-of-texas-holdem";
+				$canonical		= "https://www.pokerbaazi.com/basic-rules-of-texas-holdem";
+				$ogTitle		= "Basic Rules of Texas Hold'em Poker Online in India | PokerBaazi";
+				$ogimage        = "https://www.pokerbaazi.com/images/rulesicon.png" ;
+				$ogDescription 	= "Learn the basic rules of Texas Hold'em Poker from the best online poker site in India to win cash prizes daily. To know poker rules texas hold'em and win the game here!";
+				$title			= "Basic Rules of Texas Hold'em Poker Online in India | PokerBaazi";
+				$metaDesc		= "Learn the basic rules of Texas Hold'em Poker from the best online poker site in India to win cash prizes daily. To know poker rules texas hold em and win the game here!";
+				$metaKey		= "texas hold'em, texas hold'em poker, texas poker, poker basic rules";
+				$metaRobots		= "INDEX, FOLLOW";
+				break;
+				
+			case "pot-limit-omaha":
+				$ogUrl			= "https://www.pokerbaazi.com/pot-limit-omaha";
+				$canonical		= "https://www.pokerbaazi.com/pot-limit-omaha";
+				$ogTitle		= "Learn how to play omaha poker (PLO) & What is PLO";
+				$ogimage        = "https://www.pokerbaazi.com/images/pokerpotlimit.png" ;
+				$ogDescription 	= "Learn how to how to play omaha poker (PLO) and learn online poker omaha rules & PLO poker betting structure at PokerBaazi.com";
+				$title			= "Learn how to play omaha poker (PLO) & What is PLO";
+				$metaDesc		= "Learn how to how to play omaha poker (PLO) and learn online poker omaha rules & PLO poker betting structure at PokerBaazi.com";
+				$metaKey		= "plo poker, pot limit omaha, omaha poker";
+				$metaRobots		= "INDEX, FOLLOW";
+				break;		
+							
+			case "hand-rankings":
+				$ogUrl			= "https://www.pokerbaazi.com/hand-rankings";
+				$canonical		= "https://www.pokerbaazi.com/hand-rankings";
+				$ogTitle		= "The list of Poker Hand Ranking Sequence Online in India | PokerBaazi";
+				$ogDescription 	= "Find out which poker hands win over another - Official poker hand rankings guide with all poker sequences from best to worst.";
+				$title			= "The list of Poker Hand Ranking Sequence Online in India | PokerBaazi";
+				$metaDesc		= "Find out which poker hands win over another - Official poker hand rankings guide with all poker sequences from best to worst.";
+				$metaKey		= "poker rank, poker sequences, hand ranking";
+				$metaRobots		= "INDEX, FOLLOW";
+				break;
+				
+			case "poker-dictionary":
+				$ogUrl			= "https://www.pokerbaazi.com/poker-dictionary";
+				$canonical		= "https://www.pokerbaazi.com/poker-dictionary";
+				$ogTitle		= "Online Poker Terms & Poker Dictionary  | PokerBaazi";
+				$ogDescription 	= "Learn to Know about online poker terms of PLO Omaha Poker, Texas Holdem, Poker Freeroll Tournaments at PokerBaazi.com and Win real money online.";
+				$title			= "Online Poker Terms & Poker Dictionary  | PokerBaazi";
+				$metaDesc		= "Learn to Know about online poker terms of PLO Omaha Poker, Texas Holdem, Poker Freeroll Tournaments at PokerBaazi.com and Win real money online.";
+				$metaKey		= "poker tips,poker statergy, poker rules";
+				$metaRobots		= "INDEX, FOLLOW";
+				break;
+				
+			case "poker-tips":
+				$ogUrl			= "https://www.pokerbaazi.com/poker-tips";
+				$canonical		= "https://www.pokerbaazi.com/poker-tips";
+				$ogTitle		= "Poker tips and strategies for Texas hold'em and Omaha Poker";
+				$ogDescription 	= "Improve your tips poker skill with these advanced online poker tips and strategies. Learn poker tips & know to play poker games like Texas Hold'em & Omaha.";
+				$title			= "Poker tips and strategies for Texas hold'em and Omaha Poker";
+				$metaDesc		= "Improve your tips poker skill with these advanced online poker tips and strategies. Learn poker tips & know to play poker games like Texas Hold'em & Omaha.";
+				$metaKey		= "poker tips,poker statergy, poker rules";
+				$metaRobots		= "INDEX, FOLLOW";
+				break;
+				
+			case "promotions":
+				$ogUrl			= "https://www.pokerbaazi.com/promotions";
+				$canonical		= "https://www.pokerbaazi.com/promotions";
+				$ogTitle		= "Check out Online Poker Promotions & Special Offers -PokerBaazi";
+				$ogDescription 	= "Find the best online poker promotions, poker offers & bonus, latest & hot poker coupon codes, exclusive poker tournaments and more at PokerBaazi.";
+				$title			= "Check out Online Poker Promotions & Special Offers -PokerBaazi";
+				$metaDesc		= "Find the best online poker promotions, poker offers & bonus, latest & hot poker coupon codes, exclusive poker tournaments and more at PokerBaazi.";
+				$metaKey		= "poker promotion, poker bonus, offers and bonus, promo code";
+				$metaRobots		= "INDEX, FOLLOW";
+				break;
+											
+			case "cash-drive":
+				$ogUrl			= "https://www.pokerbaazi.com/promotions/cash-drive";
+				$canonical		= "https://www.pokerbaazi.com/promotions/cash-drive";
+				$title			= "The best poker CASH game series returns with its 3rd Edition";
+				$metaDesc		= "On popular demand, the best CASH game series returns with its 3rd Edition! Rewards are worth fighting for! Play the most exciting and rewarding series starting from 1st March 2018";
+				$metaKey		= "poker promotion, poker bonus, offers and bonus, promo code";
+				$metaRobots		= "INDEX, FOLLOW";
+				break;
+															
+			case "diwali-cash-league":
+				$ogUrl			= "https://www.pokerbaazi.com/promotions/diwali-cash-league";
+				$canonical		= "https://www.pokerbaazi.com/promotions/diwali-cash-league";
+				$title			= "Win grand prizes this Diwali by playing poker on PokerBaazi.com";
+				$metaDesc		= "Win grand prizes this Diwali by playing your favourite poker cash games on PokerBaazi.com";
+				$metaKey		= "poker promotion, poker bonus, offers and bonus, diwali poker";
+				$metaRobots		= "INDEX, FOLLOW";
+				break;
+																			
+			case "republic-day":
+				$ogUrl			= "https://www.pokerbaazi.com/promotions/republic-day";
+				$canonical		= "https://www.pokerbaazi.com/promotions/republic-day";
+				$title			= "PokerBaazi is celebrating the 69th Republic Day of India";
+				$metaDesc		= "Not just restricting to a day, PokerBaazi is celebrating the 69th Republic Day of India with a 4 day long tournament series.";
+				$metaRobots		= "INDEX, FOLLOW";
+				break;
+		
+			
+			case "bss-se":
+				$ogUrl			= "https://www.pokerbaazi.com/promotions/bss-se";
+				$canonical		= "https://www.pokerbaazi.com/promotions/bss-se";
+				$ogTitle		= "Baazi Super Sunday(BSS) - PokerBaazi";
+				$ogDescription 	= "Sundays have been BIG for Baazigars with high value tournaments in the Sunday prime time. But imagine the Baazi Super Sunday getting even more special!";
+				$title			= "50 LAC Guaranteed Baazi Super Sunday Special Edition -PokerBaazi";
+				$metaDesc		= "Grand Baazi Sunday - BSS on PokerBaazi have gone from big to grand. It has four tournaments Worth 22 Lacs.";
+				$metaKey		= "Baazi Super Sunday,Grand Baazi Sunday , BSS";
+				$metaRobots		= "INDEX, FOLLOW";
+				break;
+				
+			case "baazi-summer-carnival":
+				$ogUrl			= "https://www.pokerbaazi.com/promotions/baazi-summer-carnival";
+				$canonical		= "https://www.pokerbaazi.com/promotions/baazi-summer-carnival";
+				$ogTitle		= "Super Sunday Poker Tournaments, Win Prize of 22 LAC -PokerBaazi";
+				$ogDescription 	= "Get a chance to WIN poker tournament tickets to each of massive tournaments every day only on PokerBaazi.com";
+				$title			= "Super Sunday Poker Tournaments, Win Prize of 22 LAC -PokerBaazi";
+				$metaDesc		= "Get a chance to WIN poker tournament tickets to each of massive tournaments every day only on PokerBaazi.com";
+				$metaRobots		= "INDEX, FOLLOW";
+				break;	
+				
+		   case "baazi-grinders-day":
+				$ogUrl			= "https://www.pokerbaazi.com/promotions/baazi-grinders-day";
+				$canonical		= "https://www.pokerbaazi.com/promotions/baazi-grinders-day";
+				$ogTitle		= "Welcome to the year opening edition of PokerBaazi Grinders Series in January 2018";
+				$ogDescription 	= "This edition will have 30 tournaments spread over 5 days. A massive guarantee of 22 LAC is something you cannot really miss! The January edition also carries leaderboard rewards worth 1 LAC.";
+				$title			= "Welcome to the year opening edition of PokerBaazi Grinders Series in January 2018";
+				$metaDesc		= "This edition will have 30 tournaments spread over 5 days. A massive guarantee of 22 LAC is something you cannot really miss! The January edition also carries leaderboard rewards worth 1 LAC.";
+				$metaRobots		= "INDEX, FOLLOW";
+				break;	
+				
+		   case "promotions/stack-challenge":
+				$ogUrl			= "https://www.pokerbaazi.com/promotions/stack-challenge";
+				$canonical		= "https://www.pokerbaazi.com/promotions/stack-challenge";
+				$ogTitle		= "Poker Highest Stack Challenge - Pokerbaazi.com";
+				$ogDescription 	= "Reaching the poker stack challenge is not just an achievement. It can get you win exciting cash prize with a bankroll worth of Rs.50,000.";
+				$title			= "PokerBaazi Introducing the all new stack Challenge";
+				$metaDesc		= "Play and Compete the stack challenge, and you get an opportunity to win exciting cash prizes and much more.";
+				$metaKey		= "poker stack challenge, stack challenge , challenge stack,online poker stack challenge";
+				$metaRobots		= "INDEX, FOLLOW";
+				break;	
+				
+				
+			case "promotions/refer-a-friend":
+				$ogUrl			= "https://www.pokerbaazi.com/promotions/refer-a-friend";
+				$canonical		= "https://www.pokerbaazi.com/promotions/refer-a-friend";
+				$ogTitle		= "Refer a friend and Earn Real Cash on PokerBaazi.com";
+				$ogDescription 	= "By Refering a Friend you can win big prize on PokerBaazi.com";
+				$title			= "Refer a friend, Get 10% of the rake generated-PokerBaazi";
+				$metaDesc		= "Do You Have Friends Who Love to Play Poker and Have Never Registered on PokerBaazi? Refer a Friend, and You'll get 10% of the Rake Generated by your Friend.";
+				$metaKey		= "Refer a friend poker, earn real cash,";
+				$metaRobots		= "INDEX, FOLLOW";
+				break;	
+			
+			case "promotions/royal-flush":
+				$ogUrl			= "https://www.pokerbaazi.com/promotions/royal-flush";
+				$canonical		= "https://www.pokerbaazi.com/promotions/royal-flush";
+				$ogTitle		= "Get FREE Real Cash Chips up-to 10,000 -PokerBaazi";
+				$ogimage        = "https://www.pokerbaazi.com/images/royal_flush_1168X362.jpg";
+				$ogDescription 	= "A rare hand at the cash tables can boost your bankroll. Get the best of Royal Flush only on PokerBaazi.com.";
+				$title			= "Play Royal Flush Poker on Cash Table at Pokerbaazi.com";
+				$metaDesc		= "You Get an Amazing Bonus If You Open a Royal Flush in Texas Hold'em or Pot Limit Omaha on Cash Tables at PokerBaazi.com";
+				$metaKey		= "Poker Royal Flush, Royal Flush Play,Royal Flush Poker";
+				$metaRobots		= "INDEX, FOLLOW";
+				break;	
+					
+			case "promotions/leaderboard-rewards":
+				$ogUrl			= "https://www.pokerbaazi.com/promotions/leaderboard-rewards";
+				$canonical		= "https://www.pokerbaazi.com/promotions/leaderboard-rewards";
+				$title			= "Daily Leaderboard Rewards, Prizes, Poker Tournaments at Poker Baazi";
+				$metaDesc		= "Poker Baazi has excellent Leaderboard Rewards worth over 10 LAC every month, and it also includes daily leaderboard prize for tournaments where the winner will get 20000 Baazi coins.";
+				$metaKey		= "daily leaderboard prizes, daily leader board prizes,daily leaderboard rewards,poker leaderboard reward ,leaderboard rewards prize";
+				$metaRobots		= "INDEX, FOLLOW";
+				break;	
+					
+			case "promotions/joining-bonus":
+				$ogUrl			= "https://www.pokerbaazi.com/promotions/joining-bonus";
+				$canonical		= "https://www.pokerbaazi.com/promotions/joining-bonus";
+				$ogTitle		= "To earn a 100% joining bonus - up to 7000!  PokerBaazi";
+				$ogimage        = "https://www.pokerbaazi.com/images/welcomepb_1168X362.jpg" ;
+				$ogDescription 	= "PokerBaazi is Offering You the Best First Deposit Bonus Poker Online! Enjoy the Biggest and Easiest Release of Welcome Bonus!";
+				$title			= "Joining Bonus - Online Poker Deposit Bonus Code: Pokerbaazi.com";
+				$metaDesc		= "Poker Deposit Bonus Code: Get the best poker bonus offers, codes at Pokerbaazi.com and also find exclusive deals, bonus codes for deposit, sign up and also other unique poker deals.";
+				$metaKey		= "Joining Bonus - Online Poker Deposit Bonus Code: Pokerbaazi.com";
+				$metaRobots		= "INDEX, FOLLOW";
+				break;	
+				
+			case "happy-hours":
+				$ogUrl			= "https://www.pokerbaazi.com/promotions/happy-hours";
+				$canonical		= "https://www.pokerbaazi.com/promotions/happy-hours";
+				$metaRobots		= "NOINDEX, NOFOLLOW, NOARCHIVE";
+				break;	
+					
+			case "daily-schedule":
+				$ogUrl			= "https://www.pokerbaazi.com/promotions/daily-schedule";
+				$canonical		= "https://www.pokerbaazi.com/promotions/daily-schedule";
+				$ogTitle		= "A Variety of Turbo & Deepstack Freezeout, Rebuy & Re-entry Poker Tournaments.";
+				$ogDescription 	= "Make it big every day! Play Online Poker for a massive prize of 1 LAC GTD every night at 10 PM. Get a FREE ticket using code THEBIG at PokerBaazi.";
+				$ogimage        = "https://www.pokerbaazi.com/images/mtt_1168x362.jpg";
+				$title			= "A Variety of Turbo & Deepstack Freezeout, Rebuy & Re-entry Poker Tournaments.";
+				$metaDesc		= "Make it big every day! Play Online Poker for a massive prize of 1 LAC GTD every night at 10 PM. Get a FREE ticket using code THEBIG at PokerBaazi.";
+				$metaRobots		= "INDEX, FOLLOW";
+				break;	
+					
+			case "promotions/daily-specials":
+				$ogUrl			= "https://www.pokerbaazi.com/promotions/daily-specials";
+				$canonical		= "https://www.pokerbaazi.com/promotions/daily-specials";
+				$ogTitle		= "Poker Baazi - Daily Specials Poker Game Tournaments";
+				$ogDescription 	= "Poker Baazi has added daily special game but different tournaments every day to their schedule.";
+				$ogimage        = "https://www.pokerbaazi.com/images/special_1168x362.jpg";
+				$title			= "Check out the daily special poker promotional offer- PokerBaazi";
+				$metaDesc		= "To spice up the game, Pokerbaazi.com has added daily specials to the schedule. a super exciting high-value, but different tournament every day.";
+				$metaKey		= "daily specials tournament,daily specials poker tournaments,daily specials game tournament";
+				$metaRobots		= "INDEX, FOLLOW";
+				break;	
+					
+			case "ppl-se":
+				$ogUrl			= "https://www.pokerbaazi.com/ppl-se";
+				$canonical		= "https://www.pokerbaazi.com/ppl-se";
+				$ogTitle		= "PokerBaazi Premier League Special Edition";
+				$ogDescription 	= "PokerBaazi.com brings you the biggest online Poker league in India, PokerBaazi Premier League Special Edition.";
+				$title			= "PokerBaazi Premier League Special Edition";
+				$metaDesc		= "PokerBaazi.com brings you the biggest online Poker league in India, PokerBaazi Premier League Special Edition.";
+				$metaRobots		= "INDEX, FOLLOW";
+				break;	
+				
+			case "promotions/bss":
+				$ogUrl			= "https://www.pokerbaazi.com/promotions/bss";
+				$canonical		= "https://www.pokerbaazi.com/promotions/bss";
+				$title		= "PokerBaazi super sunday- Online Poker Tournaments";
+				$metaDesc 	= "The sundays on PokerBaazi.com have gone from big to grand! You have a chance to win tickets to each of these massive tournaments every day.";
+				$metaKey		= "freeroll poker tournament, poker tournaments";
+				$metaRobots		= "INDEX, FOLLOW";
+				break;	
+					
+			case "the-moneymaker":
+				$ogUrl			= "https://www.pokerbaazi.com/the-moneymaker";
+				$canonical		= "https://www.pokerbaazi.com/the-moneymaker";
+				$title			= "The MoneyMaker5.0 only on PokerBaazi.com at 6PM on Sunday, May 13";
+				$metaDesc		= "Having a massive GTD prize of 1 CRORE, The MoneyMaker is India’s Best Tournament. It carries a whopping 30 LAC GTD to the 1st place!";
+				$metaKey		= "freeroll poker tournament, poker tournaments";
+				$metaRobots		= "INDEX, FOLLOW";
+				break;	
+			
+			case "summit":
+				$ogUrl			= "https://www.pokerbaazi.com/promotions/summit";
+				$canonical		= "https://www.pokerbaazi.com/promotions/summit";
+				$title			= "Play 10GTD Poker Tournament Every Thursday at 8PM on PokerBaazi.com";
+				$metaDesc		= "Play 10GTD Poker Tournament Every Thursday at 8PM with a starting stack of 5000 with a buy-in of 7500+750 at pokerbaazi.com";
+				$metaKey		= "freeroll poker tournament, poker tournaments";
+				$metaRobots		= "INDEX, FOLLOW";
+				break;	
+			
+            case "promotions/endeavour":
+				$ogUrl			= "https://www.pokerbaazi.com/promotions/endeavour";
+				$canonical		= "https://www.pokerbaazi.com/promotions/endeavour";
+				$title			= "Play Endeavour Poker Tournament on Pokerbaazi.com";
+				$metaDesc		= "Pokerbaazi.com offers Endeavour 15 Lac Guaranteed Poker Tournament every Tuesday.";
+				$metaKey		= "Play Endeavour Poker,Endeavour Poker Tournament,Play Endeavour Tournaments";
+				$metaRobots		= "INDEX, FOLLOW";
+				break;		
+				
+							
+			case "promotions/baazi-grinders-series":
+				$ogUrl			= "https://www.pokerbaazi.com/promotions/baazi-grinders-series";
+				$canonical		= "https://www.pokerbaazi.com/promotions/baazi-grinders-series";
+				$title			= "Baazi Grinders Series at Poker Baazi";
+				$metaDesc		= "Baazi Grinders Series have 35 tournaments over seven days starts first Monday of every month";
+				$metaKey		= "Baazi Grinders Series,Grinders Series,Baazi Series";
+				$metaRobots		= "INDEX, FOLLOW";
+				break;
+				
+			case "promotions/the-big":
+				$ogUrl			= "https://www.pokerbaazi.com/promotions/the-big";
+				$canonical		= "https://www.pokerbaazi.com/promotions/the-big";
+				$title			= "Poker Baazi- The Big Poker Tournament Series";
+				$metaDesc		= "Play the Big Series worth 14 Lac on PokerBaazi on Monday, Friday and Saturday.";
+				$metaKey		= "the big series, big poker tournament series,big poker series";
+				$metaRobots		= "INDEX, FOLLOW";
+				break;	
+			
+			case "promotions/double-or-nothing":
+				$ogUrl			= "https://www.pokerbaazi.com/promotions/double-or-nothing";
+				$canonical		= "https://www.pokerbaazi.com/promotions/double-or-nothing";
+				$title			= "Play DON, Crisp and unique poker tournament to double your stack on PokerBaazi.com";
+				$metaDesc		= "A new crisp and unique poker tournament to double your stack or go back empty. Now comes with half the fees.";
+				$metaKey		= "top half get double,top half get double tournaments";
+				$metaRobots		= "INDEX, FOLLOW";
+				break;	
+			
+			case "match-ipl-pokerbaazi":
+				$ogUrl			= "https://www.pokerbaazi.com/match-ipl-pokerbaazi";
+				$canonical		= "https://www.pokerbaazi.com/match-ipl-pokerbaazi";
+				$title			= "Match IPL Haryana Hawks | PokerBaazi";
+				$metaDesc		= "Haryana Hawks- Champion Match IPL Season 2";
+				$metaRobots		= "INDEX, FOLLOW";
+				break;		
+			
+			
+			case "promotions/depositors-freeroll":
+				$ogUrl			= "https://www.pokerbaazi.com/promotions/depositors-freeroll";
+				$canonical		= "https://www.pokerbaazi.com/promotions/depositors-freeroll";
+				$title			= "Depositor Freeroll : Play Online Freeroll Poker Tournaments 0n PokerBaazi";
+				$metaDesc		= "Deposit Cash and Earn Vip point to play freeroll tournaments every weekend. Get a chance to win free tickets and Bonus real cash.";
+				$metaKey		= "poker, deposit freeroll, Freeroll Poker Tournament, Poker Freeroll Tournaments, online poker freeroll tournaments.";
+				$metaRobots		= "INDEX, FOLLOW";
+				break;	
+					
+			case "tds-policy":
+				$ogUrl			= "https://www.pokerbaazi.com/tds-policy";
+				$canonical		= "https://www.pokerbaazi.com/tds-policy";
+				$ogTitle		= "New poker tds policy to be applicable from 1st august 2017";
+				$ogDescription 	= "In accordance with consultations from top tax consulting firms, PokerBaazi.com will be implementing the new TDS policies.";
+				$title			= "New poker tds policy to be applicable from 1st august 2017";
+				$metaDesc		= "In accordance with consultations from top tax consulting firms, PokerBaazi.com will be implementing the new TDS policies.";
+				$metaKey		= "freeroll poker tournament, poker tournaments";
+				$metaRobots		= "INDEX, FOLLOW";
+				break;	
+			
+			case "baazi-vip-club":
+				$ogUrl			= "https://www.pokerbaazi.com/baazi-vip-club";
+				$canonical		= "https://www.pokerbaazi.com/baazi-vip-club";
+				$ogTitle		= "What is PokerBaazi VIP Club?";
+				$ogDescription 	= "Baazi Loyalty Club is a place where you get rewarded for your game on PokerBaazi. Amateur, Semi-Pro, Pro, World-Class, Legendary, Baazigar are 6 levels in this club.	";
+				$title			= "What is PokerBaazi VIP Club?";
+				$metaDesc		= "Baazi Loyalty Club is a place where you get rewarded for your game on PokerBaazi. Amateur, Semi-Pro, Pro, World-Class, Legendary, Baazigar are 6 levels in this club.	";
+				$metaKey		= "freeroll poker tournament, poker tournaments";
+				$metaRobots		= "INDEX, FOLLOW";
+				break;	
+					
+			case "poker-site-india-play-win-cash-prizes":
+				$ogUrl			= "https://www.pokerbaazi.com/poker-site-india-play-win-cash-prizes";
+				$canonical		= "https://www.pokerbaazi.com/poker-site-india-play-win-cash-prizes";
+				$ogTitle		= "Best poker site for real money in India";
+				$ogDescription 	= "PokerBaazi is the most trusted and user-friendly gaming website in India. We offer you a remarkable gaming experience to play online poker in India.";
+				$title			= "Best poker site for real money in India";
+				$metaDesc		= "PokerBaazi is the most trusted and user-friendly gaming website in India. We offer you a remarkable gaming experience to play online poker in India.";
+				$metaKey		= "poker sites, indian poker, play poker";
+				$metaRobots		= "INDEX, FOLLOW";
+				break;					
+								
+			case "free-poker-tournament-india":
+				$ogUrl			= "https://www.pokerbaazi.com/free-poker-tournament-india";
+				$canonical		= "https://www.pokerbaazi.com/free-poker-tournament-india";
+				$ogTitle		= "Free Poker Tournament India";
+				$ogDescription 	= "PokerBaazi is India’s biggest online platform to play online poker in India and offers you exciting poker games.";
+				$ogimage        = "https://www.pokerbaazi.com/images/promotion2bg.png";
+				$title			= "Free Poker Tournament India";
+				$metaDesc		= "PokerBaazi is India’s biggest online platform to play online poker in India and offers you exciting poker games.";
+				$metaKey		= "freeroll poker tournament, poker tournaments";
+				$metaRobots		= "INDEX, FOLLOW";
+				break;		
+					
+			case "playchess":
+				$ogUrl			= "https://www.pokerbaazi.com/playchess";
+				$ogTitle		= "Buckle up! Be a PokerBaazigar Now! Play Chess online, PokerBaazi";
+				$ogDescription 	= "PokerBaazi is an online portal providing a user friendly environment of a skill gaming. We provide a range of online chess games to meet your gaming hunger.";
+				$canonical		= "https://www.pokerbaazi.com/playchess";
+				$title			= "Buckle up! Be a PokerBaazigar Now! Play Chess online, PokerBaazi";
+				$metaKey		= "";
+				$metaDesc		= "PokerBaazi is an online portal providing a user friendly environment of a skill gaming. We provide a range of online chess games to meet your gaming hunger.";
+			
+				break;
+				
+			case "playpool":
+				$ogUrl			= "https://www.pokerbaazi.com/playpool";
+				$ogTitle		= "Play Pool Games Online at PokerBaazi.com";
+				$ogDescription 	= "PokerBaazi a venture of Baazi Networks Private Limited is an online gaming portal aimed at providing pool games online.";
+				$canonical		= "https://www.pokerbaazi.com/playpool";
+				$title			= "Play Pool Games Online at PokerBaazi.com";
+				$metaKey		= "";
+				$metaDesc		= "PokerBaazi a venture of Baazi Networks Private Limited is an online gaming portal aimed at providing pool games online.";
+				
+				break;
+				
+			case "aboutus":
+				$ogUrl			= "https://www.pokerbaazi.com/aboutus";
+				$canonical		= "https://www.pokerbaazi.com/aboutus";
+				$ogTitle		= "Best Poker for Beginners in India & Earn Money Online";
+				$ogDescription 	= "PokerBaazi.com is the best poker online India. Join today to explore an outstanding gaming experience in online poker.";
+				$title			= "Best Poker for Beginners in India & Earn Money Online";
+				$metaDesc		= "PokerBaazi.com is the best poker online India. Join today to explore an outstanding gaming experience in online poker.";
+				$metaKey		= "poker tournament, poker leaderboard, poker tournament leaderboard";
+				$metaRobots		= "INDEX, FOLLOW";
+				break;
+				
+			case "aboutus1":
+				$ogUrl			= "https://www.pokerbaazi.com/aboutus1";
+				$canonical		= "https://www.pokerbaazi.com/aboutus";
+				$metaRobots		= "NOINDEX, NOFOLLOW, NOARCHIVE";
+				break;	
+				
+			case "vip":
+				$ogUrl			= "https://www.pokerbaazi.com/vip";
+				$canonical		= "https://www.pokerbaazi.com/vip";
+				$ogTitle		= "Poker VIP levels | VIP Clubs | VIP Rewards @ PokerBaazi";
+				$ogDescription 	= "Exchange points earned for cash prizes and tournament tokens! PokerBaazi rewards you with VIP points, the more you play, so sign up today and start earning!";
+				$title			= "Poker VIP levels | VIP Clubs | VIP Rewards @ PokerBaazi";
+				$metaDesc		= "Exchange points earned for cash prizes and tournament tokens! PokerBaazi rewards you with VIP points, the more you play, so sign up today and start earning!";
+				$metaKey		= "Poker VIP levels, VIP Clubs,VIP Rewards";
+				$metaRobots		= "INDEX, FOLLOW";
+				break;
+			
+			case "install?app=ZXhl":
+				$ogUrl			= "https://www.pokerbaazi.com/install?app=ZXhl";
+				$canonical		= "https://www.pokerbaazi.com/install";
+				$title			= "How to Install PokerBaazi?";
+				$metaDesc		= "Read the following instructions for installing the PokerBaazi client on WINDOWS,MAC OSX,ANDROID and IPHONE";
+				$metaKey		= "PokerBaazi WINDOWS,PokerBaazi MAC OSX,PokerBaazi ANDROID,PokerBaazi IPHONE";
+				$metaRobots		= "NOINDEX, NOFOLLOW, NOARCHIVE";
+				break;	
+            
+			case "install":
+				$ogUrl			= "https://www.pokerbaazi.com/install";
+				$canonical		= "https://www.pokerbaazi.com/install";
+				$title			= "How to Install PokerBaazi?";
+				$metaDesc		= "Read the following instructions for installing the PokerBaazi client on WINDOWS,MAC OSX,ANDROID and IPHONE";
+				$metaKey		= "PokerBaazi WINDOWS,PokerBaazi MAC OSX,PokerBaazi ANDROID,PokerBaazi IPHONE";
+				$metaRobots		= "INDEX, FOLLOW";
+				break;	
+				
+			
+			case "vipstore":
+				$ogUrl			= "https://www.pokerbaazi.com/vipstore";
+				$canonical		= "https://www.pokerbaazi.com/vipstore";
+				$title			= "PokerBaazi VIP Store";
+				$metaDesc		= "PokerBaazi rewards you with VIP Store Bankroll, the more you play, so sign up today and start earning!";
+				$metaKey		= "PokerBaazi VIP Store";
+				$metaRobots		= "INDEX, FOLLOW";
+				break;	
+				
+			case "tournamentticket":
+				$ogUrl			= "https://www.pokerbaazi.com/tournamentticket";
+				$canonical		= "https://www.pokerbaazi.com/tournamentticket";
+				$title			= "PokerBaazi Tournament Ticket";
+				$metaDesc		= "PokerBaazi rewards you with Tournament Ticket, the more you play, so sign up today and start earning!";
+				$metaKey		= "PokerBaazi VIP Store";
+				$metaRobots		= "INDEX, FOLLOW";
+				break;	
+				
+			case "tournament-schedule":	
+				$ogUrl			= "https://www.pokerbaazi.com/tournament-schedule";
+				$canonical		= "https://www.pokerbaazi.com/tournament-schedule";
+				$ogTitle		= "Join Online Poker Tournaments and Freeroll Poker | PokerBaazi";
+				$ogDescription 	= "PokerBaazi offer online freeroll poker tournaments every day. Know poker tournament schedules for upcoming events and updates for major events";
+				$title			= "Join Online Poker Tournaments and Freeroll Poker | PokerBaazi";
+				$metaDesc		= "PokerBaazi offer online freeroll poker tournaments every day. Know poker tournament schedules for upcoming events and updates for major events";
+				$metaKey		= "poker tournament, poker leaderboard, poker tournament leaderboard";
+				$metaRobots		= "INDEX, FOLLOW";
+				break;
+				
+			case "leaderboard":
+				$ogUrl			= "https://www.pokerbaazi.com/leaderboard";
+				$canonical		= "https://www.pokerbaazi.com/leaderboard";
+				$ogTitle		= "Poker Leaderboard- Earn Money Online India at PokerBaazi";
+				$ogDescription 	= "We specialize in an Online Poker Game and Win Real Money Daily at PokerBaazi.com. Get an instant bonus now.";
+				$title			= "Poker Leaderboard- Earn Money Online India at PokerBaazi";
+				$metaDesc		= "We specialize in an Online Poker Game and Win Real Money Daily at PokerBaazi.com. Get an instant bonus now.";
+				$metaKey		= "poker tournament, poker leaderboard, poker tournament leaderboard";
+				$metaRobots		= "INDEX, FOLLOW";
+				break;
+				
+							
+			case "vip-holdem-leaderboard":
+				$ogUrl			= "https://www.pokerbaazi.com/vip-holdem-leaderboard";
+				$canonical		= "https://www.pokerbaazi.com/vip-holdem-leaderboard";
+				$title			= "VIP Holdem Poker Leaderboard- Earn Money Online India at PokerBaazi";
+				$metaDesc		= "We specialize in an Online Poker Game and Win Real Cash Prize Only at PokerBaazi.com. Get an instant bonus now.";
+				$metaKey		= "poker tournament, poker leaderboard, poker tournament leaderboard";
+				$metaRobots		= "INDEX, FOLLOW";
+				break;	
+			
+			case "ppl-leaderboard":
+				$ogUrl			= "https://www.pokerbaazi.com/ppl-leaderboard";
+				$canonical		= "https://www.pokerbaazi.com/ppl-leaderboard";
+				$ogTitle		= "Poker Leaderboard- Earn Money Online India at PokerBaazi";
+				$ogDescription 	= "We specialize in an Online Poker Game and Win Real Money Daily at PokerBaazi.com. Get an instant bonus now.";
+				$title			= "Poker Leaderboard- Earn Money Online India at PokerBaazi";
+				$metaDesc		= "We specialize in an Online Poker Game and Win Real Money Daily at PokerBaazi.com. Get an instant bonus now.";
+				$metaKey		= "poker tournament, poker leaderboard, poker tournament leaderboard";
+				$metaRobots		= "INDEX, FOLLOW";
+				break;		
+						
+			case "ppl7-leaderboard":
+				$ogUrl			= "https://www.pokerbaazi.com/ppl7-leaderboard";
+				$canonical		= "https://www.pokerbaazi.com/ppl7-leaderboard";
+				$title			= "Poker PPL7 Leaderboard- Earn Money Online India at PokerBaazi";
+				$metaDesc		= "We specialize in an Online Poker Game and Win Real Money Daily at PokerBaazi.com.";
+				$metaKey		= "poker tournament, poker leaderboard, poker tournament leaderboard";
+				$metaRobots		= "INDEX, FOLLOW";
+				break;	
+				
+			case "grinders-leaderboard":
+				$ogUrl			= "https://www.pokerbaazi.com/grinders-leaderboard";
+				$canonical		= "https://www.pokerbaazi.com/grinders-leaderboard";
+				$title			= "Grinders Series March 2018 Leaderboard at PokerBaazi.com";
+				$metaDesc		= "Poker Grinders Series March 2018 Leaderboard Poker Tournament Result at PokerBaazi.com. To know more about leaderboard points, find here.";
+				$metaKey		= "poker tournament, poker leaderboard, poker tournament leaderboard";
+				$metaRobots		= "INDEX, FOLLOW";
+				break;				
+			
+			case "holdem-drive-leaderboard-low":
+				$ogUrl			= "https://www.pokerbaazi.com/holdem-drive-leaderboard-low";
+				$canonical		= "https://www.pokerbaazi.com/holdem-drive-leaderboard-low";
+				$title			= "Holdem Drive Low LeaderBoard at PokerBaazi.com";
+				$metaDesc		= "Holdem Drive Low LeaderBoard Poker Tournament Resultat PokerBaazi.com. To know more about leaderboard points, find here.";
+				$metaKey		= "poker tournament, poker leaderboard, poker tournament leaderboard";
+				$metaRobots		= "INDEX, FOLLOW";
+				break;		
+				
+			case "holdem-drive-leaderboard-middle":
+				$ogUrl			= "https://www.pokerbaazi.com/holdem-drive-leaderboard-middle";
+				$canonical		= "https://www.pokerbaazi.com/holdem-drive-leaderboard-middle";
+				$title			= "Holdem Drive Middle LeaderBoard at PokerBaazi.com";
+				$metaDesc		= "Holdem Drive Middle LeaderBoard Poker Tournament Result at PokerBaazi.com. To know more about leaderboard points, find here.";
+				$metaKey		= "poker tournament, poker leaderboard, poker tournament leaderboard";
+				$metaRobots		= "INDEX, FOLLOW";
+				break;	
+								
+			case "holdem-drive-leaderboard-high":
+				$ogUrl			= "https://www.pokerbaazi.com/holdem-drive-leaderboard-high";
+				$canonical		= "https://www.pokerbaazi.com/holdem-drive-leaderboard-high";
+				$title			= "Holdem Drive LeaderBoard High at PokerBaazi.com";
+				$metaDesc		= "Holdem Drive LeaderBoard High Poker Tournament Result at PokerBaazi.com. To know more about leaderboard points, find here.";
+				$metaKey		= "poker tournament, poker leaderboard, poker tournament leaderboard";
+				$metaRobots		= "INDEX, FOLLOW";
+				break;	
+						
+			case "ppl-fantasy-leaderboard":
+				$ogUrl			= "https://www.pokerbaazi.com/ppl-fantasy-leaderboard";
+				$canonical		= "https://www.pokerbaazi.com/ppl-fantasy-leaderboard";
+				$title			= "PPL Fantasy Leaderboard at PokerBaazi.com";
+				$metaDesc		= "Poker Grinders Series March 2018 Leaderboard Result at PokerBaazi.com. To know more about ppl fantasy leaderboard points, find here.";
+				$metaKey		= "poker tournament, poker leaderboard, poker tournament leaderboard";
+				$metaRobots		= "INDEX, FOLLOW";
+				break;	
+				
+			case "monthly-leaderboard":
+				$ogUrl			= "https://www.pokerbaazi.com/monthly-leaderboard";
+				$canonical		= "https://www.pokerbaazi.com/monthly-leaderboard";
+				$ogTitle		= "Monthly Poker Tournament Leaderboard | Poker rank | PokerBaazi";
+				$ogDescription 	= "Online Poker Tournament Schedules for upcoming events at PokerBaazi. Check out full details on Today’s Poker Tournaments.";
+				$title			= "Monthly Poker Tournament Leaderboard | Poker rank | PokerBaazi";
+				$metaDesc		= "Online Poker Tournament Schedules for upcoming events at PokerBaazi. Check out full details on Today’s Poker Tournaments.";
+				$metaKey		= "poker tournament, poker leaderboard, poker tournament leaderboard";
+				$metaRobots		= "INDEX, FOLLOW";
+				break;
+			
+			case "yearly-leaderboard":
+				$ogUrl			= "https://www.pokerbaazi.com/yearly-leaderboard";
+				$canonical		= "https://www.pokerbaazi.com/yearly-leaderboard";
+				$ogTitle		= "Yearly Poker Tournament Leaderboard | Poker rank | PokerBaazi";
+				$ogDescription 	= "Online Poker Tournament Schedules for upcoming events at PokerBaazi. Check out full details on Yearly Poker Tournaments.";
+				$title			= "Yearly Poker Tournament Leaderboard | Poker rank | PokerBaazi";
+				$metaDesc		= "Online Poker Tournament Schedules for upcoming events at PokerBaazi. Check out full details on Yearly Poker Tournaments.";
+				$metaKey		= "poker tournament, poker leaderboard, poker tournament leaderboard";
+				$metaRobots		= "INDEX, FOLLOW";
+				break;
+				
+			case "ppl-yearly-leaderboard":
+				$ogUrl			= "https://www.pokerbaazi.com/ppl-yearly-leaderboard";
+				$canonical		= "https://www.pokerbaazi.com/ppl-yearly-leaderboard";
+				$title			= "PPL 2018 LEADERBOARD | Poker rank | PokerBaazi";
+				$metaDesc		= "Online Poker Tournament PPl 2018 leaderboard upcoming events at PokerBaazi. Check out full details on PPL 2018 leaderboard points";
+				$metaKey		= "poker tournament, poker leaderboard, poker tournament leaderboard";
+				$metaRobots		= "INDEX, FOLLOW";
+				break;	
+				
+				
+			case "mvp-leaderboard":
+				$ogUrl			= "https://www.pokerbaazi.com/mvp-leaderboard";
+				$canonical		= "https://www.pokerbaazi.com/mvp-leaderboard";
+				$title			= "Monthly Most Valuable Player LeaderBoard| PokerBaazi";
+				$metaDesc		= "Monthly Most Valuable Player Poker LeaderBoard at PokerBaazi. Check out full details about MVP points.";
+				$metaKey		= "poker tournament, poker leaderboard, poker tournament leaderboard";
+				$metaRobots		= "INDEX, FOLLOW";
+				break;
+							
+			case "fantasy-leaderboard":
+				$ogUrl			= "https://www.pokerbaazi.com/fantasy-leaderboard";
+				$canonical		= "https://www.pokerbaazi.com/fantasy-leaderboard";
+				$title			= "Fantasy Poker Player LeaderBoard| PokerBaazi";
+				$metaDesc		= "Fantasy Player Poker LeaderBoard at PokerBaazi. Check out full details about leaderboard points.";
+				$metaKey		= "poker tournament, poker leaderboard, poker tournament leaderboard";
+				$metaRobots		= "INDEX, FOLLOW";
+				break;
+				
+			case "daily-double-hi-leaderboard":
+				$ogUrl			= "https://www.pokerbaazi.com/daily-double-hi-leaderboard";
+				$canonical		= "https://www.pokerbaazi.com/daily-double-hi-leaderboard";
+				$title			= "Double or Nothing Daily Hi Leaderboard";
+				$metaDesc		= "Double or Nothing Daily Hi Poker Leaderboard LeaderBoard at PokerBaazi. Check out full details about Leaderboard points.";
+				$metaKey		= "poker tournament, poker leaderboard, poker tournament leaderboard";
+				$metaRobots		= "INDEX, FOLLOW";
+				break;	
+					
+			case "daily-double-lo-leaderboard":
+				$ogUrl			= "https://www.pokerbaazi.com/daily-double-lo-leaderboard";
+				$canonical		= "https://www.pokerbaazi.com/daily-double-lo-leaderboard";
+				$title			= "Double or Nothing Daily LO Leaderboard";
+				$metaDesc		= "Double or Nothing Daily LO Poker Leaderboard LeaderBoard at PokerBaazi. Check out full details about Leaderboard points.";
+				$metaKey		= "poker tournament, poker leaderboard, poker tournament leaderboard";
+				$metaRobots		= "INDEX, FOLLOW";
+				break;	
+							
+			case "daily-leaderboard":
+				$ogUrl			= "https://www.pokerbaazi.com/daily-leaderboard";
+				$canonical		= "https://www.pokerbaazi.com/daily-leaderboard";
+				$title			= "Daily Poker Tournament Leaderboard | Poker rank | PokerBaazi";
+				$metaDesc		= "Online Poker Tournament Leaderboard for upcoming events at PokerBaazi. Check out the details on daily Poker Tournaments.";
+				$metaKey		= "poker tournament, poker leaderboard, poker tournament leaderboard";
+				$metaRobots		= "INDEX, FOLLOW";
+				break;			
+				
+			case "blog":
+				$ogUrl			= "https://www.pokerbaazi.com/blog/";
+				$canonical		= "https://www.pokerbaazi.com/blog/";
+				$ogTitle		= "Earn money by playing online poker in India- Read Poker Blog";
+				$ogDescription 	= "PokerBaazi  blog covers every aspect of online poker happening all over the world.";
+				$title			= "Earn money by playing online poker in India- Read Poker Blog";
+				$metaKey		= "poker videos, world series of poker, learn poker, poker rule, Poker Skills";
+				$metaDesc		= "PokerBaazi  blog covers every aspect of online poker happening all over the world!";
+				$metaRobots		= "INDEX, FOLLOW";
+				break;	
+				
+			case "support":
+				$ogUrl			= "https://www.pokerbaazi.com/support";
+				$canonical		= "https://www.pokerbaazi.com/support";
+				$ogTitle		= "Customer Service Inquiries | Poker 24/7 Support | PokerBaazi";
+				$ogDescription 	= "PokerBaazi offers Best Customer Support in the Industry. Get Poker 24/7 help with all your Online Poker Issues.";
+				$title			= "Customer Service Inquiries | Poker 24/7 Support | PokerBaazi";
+				$metaDesc		= "PokerBaazi offers Best Customer Support in the Industry. Get Poker 24/7 help with all your Online Poker Issues.";
+				$metaKey		= "PokerBaazi Customer care, PokerBaazi Customer care number";
+				$metaRobots		= "INDEX, FOLLOW";
+				break;		
+				
+				case "responsible-gaming":
+				$ogUrl			= "https://www.pokerbaazi.com/responsible-gaming";
+				$canonical		= "https://www.pokerbaazi.com/responsible-gaming";
+				$ogTitle		= "Poker Responsible Gaming | Online Poker – PokerBaazi";
+				$ogDescription 	= "Poker Responsible Gaming to find out how to play poker responsibly and committed to providing a responsible gaming experience for everyone.";
+				$title			= "Poker Responsible Gaming | Online Poker – PokerBaazi";
+				$metaKey		= "poker responsible, poker gaming";
+				$metaDesc		= "Poker Responsible Gaming to find out how to play poker responsibly and committed to providing a responsible gaming experience for everyone.";
+				$metaRobots		= "INDEX, FOLLOW";
+				break;	
+				
+			case "disclaimer":
+				$ogUrl			= "https://www.pokerbaazi.com/disclaimer";
+				$canonical		= "https://www.pokerbaazi.com/disclaimer";
+				$ogTitle		= "Disclaimer – PokerBaazi | Play Online Poker Games in India";
+				$ogDescription 	= "PokerBaazi specifically disclaims any and all legal responsibility in connection with the RNG used by PokerBaazi’s software.";
+				$title			= "Disclaimer – PokerBaazi | Play Online Poker Games in India";
+				$metaDesc		= "PokerBaazi specifically disclaims any and all legal responsibility in connection with the RNG used by PokerBaazi’s software.";
+				$metaKey		= "Poker disclaimer, indian poker";
+				$metaRobots		= "INDEX, FOLLOW";
+				break;
+				
+			case "terms-of-use":
+				$ogUrl			= "https://www.pokerbaazi.com/terms-of-use";
+				$canonical		= "https://www.pokerbaazi.com/terms-of-use";
+				$ogTitle		= "PokerBaazi | Online Poker Games in India – Terms of use";
+				$ogDescription 	= "PokerBaazi provides its services to you subjected to certain Terms of use. Read more about our Terms & Conditions of use at PokerBaazi.";
+				$title			= "PokerBaazi | Online Poker Games in India – Terms of use";
+				$metaDesc		= "PokerBaazi provides its services to you subjected to certain Terms of use. Read more about our Terms & Conditions of use at PokerBaazi.";
+				$metaKey		= "Poker terms, indian poker";
+				$metaRobots		= "INDEX, FOLLOW";
+				break;				
+				
+			case "privacy":
+				$ogUrl			= "https://www.pokerbaazi.com/privacy";
+				$canonical		= "https://www.pokerbaazi.com/privacy";
+				$ogTitle		= "PokerBaazi | Privacy Policy - Play Online Poker Games in India";
+				$ogDescription 	= "Play secure and Legal Online Poker India at PokerBaazi. Our poker software is safe & secure and our Privacy Policy is the best of the others poker websites.";
+				$title			= "PokerBaazi | Privacy Policy - Play Online Poker Games in India";
+				$metaDesc		= "Play secure and Legal Online Poker India at PokerBaazi. Our poker software is safe & secure and our Privacy Policy is the best of the others poker websites.";
+				$metaKey		= "Poker privacy policy";
+				$metaRobots		= "INDEX, FOLLOW";
+				break;				
+				
+			case "legality":
+				$ogUrl			= "https://www.pokerbaazi.com/legality";
+				$canonical		= "https://www.pokerbaazi.com/legality";
+				$ogTitle		= "Play Legal Online Poker in India @ PokerBaazi";
+				$ogDescription 	= "It is completely legality to Play Online Poker at PokerBaazi. Read all the poker legal information related to PokerBaazi here.";
+				$title			= "Play Legal Online Poker in India @ PokerBaazi";
+				$metaKey		= "poker legality, play legal poker, legal online poker";
+				$metaDesc		= "It is completely legality to Play Online Poker at PokerBaazi. Read all the poker legal information related to PokerBaazi here.";
+				$metaRobots		= "INDEX, FOLLOW";
+				break;		
+				
+			case "faq":
+				$ogUrl			= "https://www.pokerbaazi.com/faq";
+				$canonical		= "https://www.pokerbaazi.com/faq";
+				$ogTitle		= "Frequently Asked Questions About Indian Poker Game@ PokerBaazi";
+				$ogDescription 	= "Find out all the information about poker online game India on PokerBaazi instant play with poker room of helpful FAQs";
+				$title			= "Frequently Asked Questions About Indian Poker Game@ PokerBaazi";
+				$metaKey		= "poker faq, poker support, online poker game";
+				$metaDesc		= "Find out all the information about poker online game India on PokerBaazi instant play with poker room of helpful FAQs";
+				$metaRobots		= "INDEX, FOLLOW";
+				break;	
+
+					
+			default:
+				$ogUrl			= "https://www.pokerbaazi.com/";
+				$ogTitle		= "Play Poker Games in India's Most Trusted Poker Website";
+				$ogDescription 	= "Play Online Poker Games in India for Real Money. Play Texas Hold'em and Pot Limit Omaha poker games tournaments in India to Win Cash Prizes daily only on PokerBaazi.com";
+				$shortlink		= "https://www.pokerbaazi.com/";
+				$shorticon		= "https://www.pokerbaazi.com/favicon.ico";
+				$canonical		= "https://www.pokerbaazi.com/";
+				$title			= "Play Poker Games Online in India and Earn Real Money Online";
+				$metaKey		= "play online poker, poker india, poker games, earn money online";
+				$metaDesc		= "Play Online Poker Games in India for Real Money. Play Texas Hold'em and Pot Limit Omaha poker games tournaments in India to Win Cash Prizes daily only on PokerBaazi.com";
+				$metaRobots		= "INDEX, FOLLOW";
+				
+			   break;
+			
+	}
+ }else{
+				$ogUrl			= "https://www.pokerbaazi.com/";
+				$ogTitle		= "Play Poker Games in India's Most Trusted Poker Website";
+				$ogDescription 	= "Play Online Poker Games in India for Real Money. Play Texas Hold'em Poker and Pot Limit Omaha poker games tournaments in India to Win Cash Prizes daily only on PokerBaazi.com";
+				$shortlink		= "https://www.pokerbaazi.com/";
+				$shorticon		= "https://www.pokerbaazi.com/favicon.ico";
+				$canonical		= "https://www.pokerbaazi.com/";
+				$title			= "Play Poker Games Online in India and Earn Real Money Online";
+				$metaKey		= "play online poker, poker india, poker games, earn money online";
+				$metaDesc		= "Play Online Poker Games in India for Real Money. Play Texas Hold'em and Pot Limit Omaha poker games tournaments in India to Win Cash Prizes daily only on PokerBaazi.com";
+		        $metaRobots		= "INDEX, FOLLOW";
+ }
+
+ ?>
+
+<meta property="og:site_name" content="PokerBaazi" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="<?php echo $ogUrl; ?>" />
+<meta property="og:title" content="<?php echo $ogTitle; ?>"/>
+<meta property="og:description" content="<?php echo $ogDescription; ?>" />
+<meta property="og:image" content="<?php echo $ogimage; ?>" />
+<link rel="canonical" href="<?php echo $canonical; ?>" />
+<title><?php echo $title; ?></title>
+<meta name="keywords" content="<?php echo $metaKey; ?>" />
+<meta name="description" content="<?php echo $metaDesc; ?>" />
+<meta name="robots" content="<?php echo $metaRobots; ?>" />
+<?php /*?><meta http-equiv="Bulletin-Text" content="<?php echo $bulletinText; ?>" /><?php */?>
+
+
+<?php
+function curPageURLMetaTags() {
+ $pageURL = 'http';
+ if ($_SERVER["HTTPS"] == "on") {$pageURL .= "s";}
+ $pageURL .= "://";
+ if ($_SERVER["SERVER_PORT"] != "80") {
+  $pageURL .= $_SERVER["SERVER_NAME"].":".$_SERVER["SERVER_PORT"].$_SERVER["REQUEST_URI"];
+ } else {
+  $pageURL .= $_SERVER["SERVER_NAME"].$_SERVER["REQUEST_URI"];
+ }
+ return $pageURL;
+}
+?>
